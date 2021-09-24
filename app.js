@@ -5,7 +5,7 @@ const bookRouter = require('./routes/book.router');
 const { errorHandler } = require('./middlewares');
 
 const app = express();
-
+console.log("test")
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
