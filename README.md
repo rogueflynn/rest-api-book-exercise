@@ -8,3 +8,6 @@ Server runs on localhost:8080
 
 **Running tests**   
 npm test
+
+TODO:
+Add ui
